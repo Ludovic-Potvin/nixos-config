@@ -5,7 +5,6 @@
     vim
     wget
     wofi
-    alacritty
     kitty
     gh
     tmux
