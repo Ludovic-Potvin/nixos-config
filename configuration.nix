@@ -7,13 +7,11 @@
     ];
 
   # Use the systemd-boot EFI boot loader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-
-  networking.hostName = "spidermonkey"; # Define your hostname.
+  # boot.loader.systemd-boot.enable = true;
+  # boot.loader.efi.canTouchEfiVariables = true;
 
   # Enable networking
-  networking.networkmanager.enable = true;
+  # networking.networkmanager.enable = true;
 
   # Set your time zone.
   time.timeZone = "America/New_York";
@@ -46,7 +44,7 @@
   };
 
   # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
+  # nixpkgs.config.allowUnfree = true;
 
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
@@ -69,7 +67,5 @@
   # services.displayManager.noctalia-greeter.enable = true;
   # === LUDO SECTION END
 
-  networking.firewall.enable = true;
-
-  system.stateVersion = "26.05"; # DO NOT EDIT
+  # networking.firewall.enable = true;
 }
