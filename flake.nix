@@ -7,7 +7,7 @@
 
   outputs = { self, nixpkgs, ... }: {
     nixosConfigurations = {
-      desktop = nixpkgs.lib.nixosSystem {
+      spidermonkey = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
 
         modules = [
