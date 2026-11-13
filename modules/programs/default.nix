@@ -16,7 +16,12 @@
 
   programs.git.enable = true;
   programs.firefox.enable = true;
-  programs.fish.enable = true;
+  programs.fish = {
+    enable = true;
+    interactiveShellInit = ''
+      set -U fish_greeting
+    '';
+  };
 
   programs.neovim = {
     enable = true;
