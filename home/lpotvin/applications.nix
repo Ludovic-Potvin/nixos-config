@@ -8,17 +8,17 @@
   home.file.".tmux.conf".source = ./tmux/tmux.conf;
 
   # Fish
-  xdg.configFile."fish/config.fish".source =
-    ./fish/config.fish;
+  xdg.configFile."fish/config.fish".source = ./fish/config.fish;
 
   # Noctalia
-  xdg.configFile."noctalia/config.toml".source =
-    ./noctalia/config.toml;
+  xdg.configFile."noctalia/config.toml".source = ./noctalia/config.toml;
 
-  # Alacritty
+  # Kitty
   xdg.configFile."kitty".source = ./kitty;
 
   # Wallpaper
-  home.file."Pictures/Wallpapers/valley.png".source =
-    ./wallpaper/valley.png;
+  home.file."Pictures/Wallpapers/valley.png".source = ./wallpaper/valley.png;
+
+  # Nvim
+  xdg.configFile."nvim".source = ./nvim;
 }

@@ -11,6 +11,7 @@
     nix-output-monitor
     zoxide
     tree
+    claude-code
   ];
 
   programs.git.enable = true;
