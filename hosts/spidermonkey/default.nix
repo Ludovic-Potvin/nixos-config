@@ -1,3 +1,5 @@
+{ inputs, ... }:
+
 {
   imports = [
     ./hardware-configuration.nix
@@ -14,6 +16,10 @@
     useUserPackages = true;
 
     backupFileExtension = "backup";
+
+    extraSpecialArgs = {
+      inherit inputs;
+    };
 
     users.lpotvin = import ../../home/lpotvin;
   };

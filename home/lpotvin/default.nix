@@ -1,9 +1,10 @@
-{ ... }:
+{ inputs, ... }:
 
 {
   imports = [
-    ./desktop.nix
-    ./tmux.nix
+    ./applications.nix
+    ./noctalia.nix
+    inputs.noctalia.homeModules.default
   ];
 
   home.username = "lpotvin";
