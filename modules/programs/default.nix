@@ -8,7 +8,6 @@
     kitty
     gh
     tmux
-    nix-output-monitor
     zoxide
     tree
     claude-code

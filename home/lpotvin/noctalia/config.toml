@@ -86,6 +86,9 @@ mode = "dark"
 source = "wallpaper"
 wallpaper_scheme = "m3-tonal-spot"
 
+[wallpaper.default]
+path = "/home/lpotvin/Pictures/Wallpapers/valley.png"
+
     [theme.templates]
     builtin_ids = [ "btop", "gtk3", "gtk4", "kcolorscheme", "kitty", "qt", "alacritty" ]
 

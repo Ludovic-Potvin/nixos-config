@@ -1,6 +1,16 @@
-{ ... }:
+{ pkgs, ... }:
 
 {
+  # Cursor
+  home.pointerCursor = {
+    enable = true;
+    package = pkgs.bibata-cursors;
+    name = "Bibata-Modern-Ice";
+    size = 24;
+    gtk.enable = true;
+  };
+  gtk.enable = true;
+
   # Hyprland
   xdg.configFile."hypr".source = ./hyprland/hypr;
 
