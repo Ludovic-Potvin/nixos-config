@@ -3,6 +3,7 @@
 {
   imports = [
     ./desktop.nix
+    ./tmux.nix
   ];
 
   home.username = "lpotvin";
