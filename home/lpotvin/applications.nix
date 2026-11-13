@@ -28,6 +28,7 @@
 
   # Wallpaper
   home.file."Pictures/Wallpapers/valley.png".source = ./wallpaper/valley.png;
+  home.file."Pictures/Wallpapers/forest_castle.png".source = ./wallpaper/forest_castle.png;
 
   # Nvim
   xdg.configFile."nvim".source = ./nvim;
