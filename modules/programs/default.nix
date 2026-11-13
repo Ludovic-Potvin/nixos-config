@@ -12,6 +12,8 @@
     zoxide
     tree
     claude-code
+    ripgrep
+    gcc
   ];
 
   programs.git.enable = true;
