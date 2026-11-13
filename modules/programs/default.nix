@@ -13,6 +13,7 @@
     claude-code
     ripgrep
     gcc
+    fastfetch
   ];
 
   programs.git.enable = true;
