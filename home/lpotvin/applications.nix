@@ -27,7 +27,8 @@
   xdg.configFile."kitty".source = ./kitty;
 
   # Wallpaper
-  home.file."Pictures/Wallpapers/elk.png".source = ./wallpaper/elk.png;
+  home.file."Pictures/Wallpapers/nix.png".source = ./wallpaper/nix.png;
+  home.file."Pictures/Wallpapers/firewatch.jpg".source = ./wallpaper/firewatch.jpg;
 
   # Nvim
   xdg.configFile."nvim".source = ./nvim;

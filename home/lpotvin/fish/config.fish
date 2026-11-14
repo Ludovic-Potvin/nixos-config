@@ -1,5 +1,9 @@
 export PATH="$HOME/.local/bin:$PATH"
 
+if status is-interactive
+    fastfetch
+end
+
 zoxide init fish --cmd cd | source
 
 function nrs --description "nixos-rebuild switch"

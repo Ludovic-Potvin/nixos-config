@@ -92,7 +92,7 @@ builtin = "Gruvbox"
 wallpaper_scheme = "m3-tonal-spot"
 
 [wallpaper.default]
-path = "/home/lpotvin/Pictures/Wallpapers/elk.png"
+path = "/home/lpotvin/Pictures/Wallpapers/firewatch.jpg"
 
     [theme.templates]
     builtin_ids = [ "btop", "gtk3", "gtk4", "kcolorscheme", "kitty", "qt", "alacritty" ]

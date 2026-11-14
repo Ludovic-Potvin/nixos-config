@@ -14,6 +14,7 @@
     ripgrep
     gcc
     fastfetch
+    discord
   ];
 
   programs.git.enable = true;
